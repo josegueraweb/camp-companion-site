@@ -1,0 +1,34 @@
+body {
+    margin: 2rem 2rem 2rem 2rem;
+    background-color:rgb(173, 186, 200)
+}
+
+header {
+    background-color:darkslateblue
+}
+
+h1 {
+    padding: 1rem;
+    color: gold;
+}
+
+p {
+    padding-left: 1rem;
+}
+
+footer {
+    background-color:rgb(255, 230, 91);
+    padding: .5rem 0;
+    text-align: center;
+    color:rgb(58, 57, 65)
+}
+
+.indent {
+    padding-left: 2rem;
+}
+
+.table-of-contents a {
+    display: block;
+    padding: .5rem;
+    margin-left: 2.5rem;
+}

@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Module 03</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Module 03: JavaScript</h1>
+    </header>
+
+    <nav>
+        <a href="../index.html">HOME</a>
+    </nav>
+
+    <h2>Timestamps</h2>
+
+    <hr>
+
+    <h3>JavaScript Day 01</h3>
+    <ul>
+        <li><strong>[00.00.00] - [00.02.40]: </strong>HTML and CSS Review</li>
+        <li><strong>[00.02.41] - [00.11.08]: </strong>JavaScript Slide Presentation</li>
+        <li><strong>[00.11.09] - [00.12.39]: </strong>Introduction to Module 03 Mini Project</li>
+        <li><strong>[00.12.40] - [00.15.22]: </strong>Adding JavaScript to your HTML document</li>
+        <li><strong>[00.15.23] - [00.18.32]: </strong><code>console.log( );</code> and Explanation of
+            <code>class.method(parameter);</code> Syntax</li>
+        <li><strong>[00.18.33] - [00.20.40]: </strong>Instructor Note on Externally Linking JavaScript Code</li>
+        <li><strong>[00.20.41] - [00.21.30]: </strong>Activity 02 -- Externally Linking a JavaScript File</li>
+        <li><strong>[00.21.31] - [00.26.00]: </strong>Activity 02 -- Solution</li>
+        <li><strong>[00.26.01] - [00.27.51]: </strong>Instructor Note on JavaScript Execution Engine</li>
+        <li><strong>[00.27.52] - [00.33.30]: </strong>Activity 03 -- Declaring JavaScript Variables and Why Using
+            <code>var</code> Can Be Problematic</li>
+        <li><strong>[00.33.31] - [00.33.42]: </strong>Activity 03 -- Reassigning a JavaScript Variable</li>
+        <li><strong>[00.33.41] - [00.33.56]: </strong>Activity 03 -- <code>console.log( );</code></li>
+        <li><strong>[00.33.57] - [00.34.38]: </strong>Activity 03 -- Concatenation Operator <code>(+)</code></li>
+        <li><strong>[00.34.39] - [00.40.21]: </strong>Activity 04 -- Overview and Some Chit-Chat</li>
+        <li><strong>[00.40.22] - [00.44.46]: </strong>Activity 04 -- Solution</li>
+        <li><strong>[00.44.47] - [00.49.41]: </strong>Activity 05 -- Primative Data Types</li>
+        <li><strong>[00.49.42] - [00.53.32]: </strong>Activity 05 -- Explanation of the Difference Between
+            <code>undefined</code> and <code>null</code></li>
+        <li><strong>[00.53.25] - [00.53.31]: </strong>Activity 06 -- Overview</li>
+        <li><strong>[00.53.32] - [01.02.48]: </strong>Activity 06 -- Walkthrough</li>
+        <li><strong>[01.02.49] - [01.04.11]: </strong>Activity 07 -- Arithmetic Operators</li>
+        <li><strong>[01.04.12] - [01.07.22]: </strong>Activity 07 -- Comparison Operators</li>
+        <li><strong>[01.07.23] - [01.12.23]: </strong>Activity 07 -- Logical Operators</li>
+        <li><strong>[01.12.24] - [01.18.27]: </strong>Activity 07 -- Q&A</li>
+        <li><strong>[01.18.28] - [01.20.34]: </strong>Activity 08 -- Overview</li>
+        <li><strong>[01.20.35] - [01.31.07]: </strong>Activity 08 -- Solution</li>
+        <li><strong>[01.31.08] - [01.35.47]: </strong>Instructor Note on Evaluating JavaScript Statements</li>
+        <li><strong>[01.35.00] - [01.41.14]: </strong>Activity 09 -- <code>If</code> / <code>Else</code> Statements</li>
+        <li><strong>[01.41.15] - [01.42.19]: </strong>Activity 10 -- Overview</li>
+        <li><strong>[01.42.20] - [01.58.47]: </strong>Activity 10 -- Solution</li>
+        <li><strong>[01.58.48] - [02.01.06]: </strong>Lecture Summary</li>
+    </ul>
+
+    <hr>
+
+    <h3>JavaScript Day 02</h3>
+    <ul>
+        <li><strong>[00.00.00] - [00.02.24]: </strong>Chit-Chat</li>
+        <li><strong>[00.02.25] - [00.03.02]: </strong>Summary of Previous Day</li>
+        <li><strong>[00.03.03] - [00.05.57]: </strong>Overview of Today's Lecture Topics</li>
+        <li><strong>[00.05.58] - [00.19.17]: </strong>Activity 11 -- <code>array</code></li>
+        <li><strong>[00.19.18] - [00.20.28]: </strong>Activity 12 -- Overview</li>
+        <li><strong>[00.20.29] - [00.27.24]: </strong>Activity 12 Solution</li>
+        <li><strong>[00.27.25] - [00.38.18]: </strong>Activity 13 -- Iternation and the For Loop</li>
+        <li><strong>[00.38.19] - [00.40.35]: </strong>Activity 14 -- Overview</li>
+        <li><strong>[00.40.36] - [00.46.24]: </strong>Activity 14 -- Solution</li>
+        <li><strong>[00.46.25] - [00.53.18]: </strong>Activity 15 -- Creating Functions</li>
+        <li><strong>[00.53.19] - [00.55.23]: </strong>Activity 16 -- Overview</li>
+        <li><strong>[00.55.24] - [01.09.51]: </strong>Activity 16 -- Solution</li>
+        <li><strong>[01.09.52] - [01.19.54]: </strong>Activity 17 -- JavaScript Scoping</li>
+        <li><strong>[01.19.55] - [01.23.50]: </strong>Activity 17 -- Difference Between <code>var</code>,
+            <code>let</code>, and <code>const</code></li>
+        <li><strong>[01.23.51] - [01.34.42]: </strong>Instructor Note on JavaScript Hoisting</li>
+        <li><strong>[01.34.43] - [01.36.29]: </strong>Activity 17 -- Summary</li>
+        <li><strong>[01.36.30] - [01.38.48]: </strong>Activity 18 -- Overview</li>
+        <li><strong>[01.38.49] - [01.46.54]: </strong>Activity 18 -- Solution</li>
+        <li><strong>[01.46.55] - [01.52.27]: </strong>Activity 19 -- JavaScript Methods</li>
+        <li><strong>[01.52.28] - [01.52.28]: </strong>Activity 20 -- Overview</li>
+    </ul>
+
+    <hr>
+
+    <h3>JavaScript Day 03</h3>
+    <ul>
+        <li><strong>[00.00.00] - [00.02.32]: </strong>Instructor Notice About Downloading Additional Files for Activity
+            28</li>
+        <li><strong>[00.02.33] - [00.06.22]: </strong>A Look at the SpaceWars Game</li>
+        <li><strong>[00.06.23] - [00.07.36]: </strong>Review of JavaScript Module Thus Far</li>
+        <li><strong>[00.07.37] - [00.19.07]: </strong>Activity 21 -- JavaScript <code>Objects</code></li>
+        <li><strong>[00.19.08] - [00.20.21]: </strong>Activity 22 -- Overview</li>
+        <li><strong>[00.20.22] - [00.27.49]: </strong>Activity 22 -- Solution</li>
+        <li><strong>[00.27.50] - [00.32.55]: </strong>Activity 23 -- Storing <code>arrays</code> and
+            <code>functions</code> inside a JavaScript <code>object</code></li>
+        <li><strong>[00.32.56] - [00.35.07]: </strong>Activity 24 -- Overview</li>
+        <li><strong>[00.35.08] - [00.45.05]: </strong>Activity 24 -- Solution</li>
+        <li><strong>[00.45.06] - [00.53.49]: </strong>Activity 25 -- JavaScript <code>this</code></li>
+        <li><strong>[00.53.50] - [01.01.39]: </strong>Activity 26 -- Walkthrough</li>
+        <li><strong>[01.01.39] - [01.15.57]: </strong>Overview of Creating and Merging Git Branches</li>
+        <li><strong>[01.15.58] - [01.21.46]: </strong>Mini-Project Overview</li>
+        <li><strong>[01.21.47] - [01.37.13]: </strong>Mini-Project Solution</li>
+        <li><strong>[01.37.14] - [01.40.11]: </strong>Overview for Module 03 Homework Challenge</li>
+
+    </ul>
+
+    <hr>
+
+    <p>HTML is the bare minimum technology needed to get a website up and running ... establishes the structure and
+        layout of a given website as well as providing the bulk of its content.</p>
+
+    <p>CSS (used for styling a webpage) and JavaScript (makes web pages interactable) are optional compared to HTML.</p>
+
+    <p>A fully functioning website doesn't need JavaScript to work. However, JavaScript is widely considered the most
+        important piece or web development technology out there ... so much so that your capacity to create, understand,
+        and explain JavaScript will likely be one of the key reasons you get hired in the future.</p>
+
+    <p>JavaScript (along with HTML and CSS) is the only programming language that can run in the browser ... other
+        pseudo-languages that run in the browser (such as PHP) are ultimately converted into either HTML, CSS, or JS
+        somewhere down the line.</p>
+
+    <p>Here's the typical syntax for creating a JavaScript variable:</p>
+
+    <pre>
+        <code>
+            var character = "Snow White" ;
+        </code>
+    </pre>
+
+    <p>In the above code snippet ...</p>
+
+    <section class="code-example">
+
+        <p><code>var</code> // stands for <strong>Var Keyword</strong> // Tells the browser that you want to create a
+            JavaScript variable.</p>
+
+        <p><code>character</code> // stands for <strong>Variable Name</strong> // Assigns a name to your variable. In
+            this example the variable name is <code>character</code>, but you can come up with any name you want!</p>
+
+        <p><code>=</code> // stands for <strong>Assignment</strong> // Assigns the variable a specific value.</p>
+
+        <p><code>"Snow White"</code> // stands for <strong>Value</strong> // The specific quality or distinction that
+            something takes on.</p>
+
+        <p><code>;</code> // stands for <strong>Termination</strong> // Marks the end of the statement.</p>
+
+    </section>
+
+    <p class="note"><strong><em>*NOTE_01:</strong> As of 2015, JavaScript no longer requires the <code>;</code> syntax
+        for a code block to function ... however, including it makes JS code easier to read, so continuing to use it
+        might still be worth it.</em></p>
+
+    <p class="note"><strong><em>*NOTE_02: </strong>The above note also applies to the deprication of <code>var</code>,
+        we'll get into alternatives for using that syntax later in this webpage.</em></p>
+
+
+    <p>Two methods you can use to add JavaScript code to your HTML document include doing it
+        <strong><em>"In-Line"</em></strong> which means that you wrap the JS code between two HTML <code>script</code>
+        tags, and <strong><em>"Externally"</em></strong> by writing a <code>script</code> tag with a <code>src=""</code>
+        attribute. For example:</p>
+
+    <pre>
+        <code>
+            +script src="script.js"+ +/script+
+        </code>
+    </pre>
+
+    <p class="note"><strong><em>*NOTE_03: </strong>Please substitute any "+" you see within certain code snippets with
+        the appropriate angle brackets that are typically needed for HTML code to function (see the example above).
+        Unfortunately, the code won't display correctly if I include angle brackets, so "+" is being used in the
+        meantime while solutions are explored.</em></p>
+
+    <h1 style="text-align: center; color: black;">[stopped taking notes at [00.15.30]</h1>
+
+    <hr>
+
+    <section class="resources">
+        <h2>Resources</h2>
+
+        
+        <hr>
+        <h3>HTML</h3>
+
+        <a href="https://www.freecodecamp.org/learn/responsive-web-design/#basic-html-and-html5">Responsive Web Design:
+            Basic HTML and HTML 5 /// <em>(freecodecamp.org)</em></a>
+
+        <a href="https://www.w3schools.com/html/default.asp">W3Schools HTML/// <em>(www.w3schools.com)</em></a>
+
+        <a href="https://www.semrush.com/blog/semantic-html5-guide/">How to Use Semantic HTML5 to Structure Your Page
+            Correctly /// <em>(www.semrush.com)</em></a>
+
+        <a href="https://seekbrevity.com/semantic-markup-important-web-design/#:~:text=Semantic%20markup%20is%20a%20way,content%20rather%20than%20its%20appearance.&text=Writing%20semantic%20markup%20means%20understanding,and%20machines%20will%20read%20it.">Semantic
+            HTML for Webpages: Why using semantic markup is important in web design and development ///
+            <em>(seekbrevity.com)</em></a>
+
+        <a href="https://html.com/semantic-markup/">What On Earth Is Semantic Markup? (And Why Should You Learn To Write
+            It) /// <em>(html.com)</em></a>
+
+        <a href="https://www.w3schools.com/html/html5_semantic_elements.asp">What's a User Story? ///
+            <em>(www.w3schools.com)</em></a>
+
+        <a href="https://www.w3schools.com/html/html5_semantic_elements.asp">Semantic Elements in HTML ///
+            <em>(www.w3schools.com)</em></a>
+
+        <a href="https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML">HTML: A good basis for accessibility
+            /// <em>(developer.mozilla.org)</em></a>
+
+        <a href="https://developer.mozilla.org/en-US/docs/Learn/Accessibility/WAI-ARIA_basics">WAI-ARIA basics ///
+            <em>(developer.mozilla.org)</em></a>
+
+        <a href="https://www.w3.org/WAI/standards-guidelines/aria/">WAI-ARIA Overview /// <em>(www.w3.org)</em></a>
+
+        <hr>
+        <h3>JavaScript</h3>
+
+        <a href="https://www.hackreactor.com/blog/what-is-javascript-used-for">What is JavaScript used for? ///
+            <em>(www.hackreactor.com)</em></a>
+
+        <a href="https://javascript.info/intro">An Introduction to JavaScript /// <em>(javascript.info)</em></a>
+
+        <a href="https://www.redhat.com/en/command-line-heroes/season-3/creating-javascript">Creating JavaScript ///
+            <em>(www.redhat.com)</em></a>
+
+        <a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#basic-javascript">freeCodeCamp
+            JavaScript Algorithms and Data Structures /// <em>(www.freecodecamp.org)</em></a>
+
+        <a href="https://javascript.info/types">Data types /// <em>(javascript.info)</em></a>
+
+        <a href="https://www.javascripttutorial.net/javascript-array/">JavaScript Arrays ///
+            <em>(www.javascripttutorial.net)</em></a>
+
+        <a href="https://www.javascripttutorial.net/javascript-primitive-vs-reference-values/">JavaScript Primitive vs.
+            Reference Values /// <em>(www.javascripttutorial.net)</em></a>
+
+        <a href="https://www.javascripttutorial.net/javascript-for-loop/">JavaScript for Loop ///
+            <em>(www.freecodecamp.org)</em></a>
+
+        <a href="https://www.javascripttutorial.net/javascript-for-loop/">JavaScript for Loop ///
+            <em>(www.freecodecamp.org)</em></a>
+
+        <a href="https://www.javascripttutorial.net/javascript-for-loop/">JavaScript for Loop ///
+            <em>(www.freecodecamp.org)</em></a>
+
+        <a href="https://www.javascripttutorial.net/javascript-for-loop/">JavaScript for Loop ///
+            <em>(www.freecodecamp.org)</em></a>
+
+    </section>
